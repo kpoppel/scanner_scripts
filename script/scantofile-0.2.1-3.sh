@@ -50,7 +50,7 @@ y=291
 ###
 ## Setup script depending on how we were called
 #From: http://stackoverflow.com/questions/192319/in-the-bash-script-how-do-i-know-the-script-file-name
-if [ "${0##*/}" == "scantofile_IS.sh" ]; then
+if [ "${0##*/}" == "scantofile.sh" ]; then
     if [ "$debug" == 1 ]; then
 	echo "FILE MODE"
     fi
